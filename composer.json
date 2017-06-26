@@ -1,0 +1,27 @@
+{
+    "name": "clintonshane84/",
+    "description": "Class implementation usage of Defuse Crypto library",
+    "license": "GPLv2",
+    "keywords": ["security", "encryption", "AES", "openssl", "cipher", "cryptography", "symmetric key cryptography", "crypto", "encrypt", "authenticated encryption"],
+    "authors": [
+        {
+            "name": "Clinton Wright",
+            "email": "clintonabco@gmail.com",
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xero\\Crypto\\": "src"
+        }
+    },
+    "require": {
+        "paragonie/random_compat": "~2.0",
+        "ext-openssl": "*",
+        "defuse/php-encryption": "2.0.3",
+        "php":  ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4|^5",
+        "nikic/php-parser": "^2.0|^3.0"
+    }
+}
